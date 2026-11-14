@@ -1,0 +1,13 @@
+# Replace these paths with your actual dataset locations.
+# Paths can be absolute or relative to this YAML file's dataset root.
+path: ../dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Replace the example names with your real defect categories.
+nc: 3
+names:
+  0: defect_type_1
+  1: defect_type_2
+  2: defect_type_3
